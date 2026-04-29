@@ -1,0 +1,13 @@
+{
+  "domain": "google_travel_time_enhanced",
+  "name": "Google Maps Travel Time Enhanced",
+  "codeowners": ["@paoloantinori"],
+  "config_flow": true,
+  "documentation": "https://github.com/paoloantinori/ha-google-travel-time-enhanced",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/paoloantinori/ha-google-travel-time-enhanced/issues",
+  "loggers": ["google", "homeassistant.helpers.location"],
+  "requirements": ["google-maps-routing==0.6.15"],
+  "version": "0.1.0"
+}
